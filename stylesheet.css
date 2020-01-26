@@ -1,0 +1,225 @@
+*{
+    font-family:Charter;
+    margin:0 auto;
+
+}
+
+.container{
+    margin:0 auto;
+    padding:20px 0;
+    max-width:1170px;
+}
+
+a{
+    text-decoration:none;
+}
+/*ここからヘッダー*/
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 11px 0;
+  display:none !important;
+}
+header{
+   height:50px;
+   background-color:black;
+   color:white;
+   font-size:22px;
+   line-height:36px;
+   position:fixed;
+   top:0;
+   z-index:0;
+   width:100%;
+   opacity:0.7;
+}
+
+header p{
+    float:left;
+    font-size:30px;
+    margin-left:60px;
+}
+
+header ul{
+    float:right;
+}
+
+header li{
+    float:left;
+    color:white;
+    padding-right:30px;
+    list-style:none;
+}
+.heada:hover{
+    color:brown;
+    opacity:none;
+}
+
+header a{
+    color:white;
+}
+
+/*ここからトップ*/
+
+.top-wrapper{
+    background-image:url("img/header.png");
+    background-size:cover;
+    height:650px;
+    text-align:center;
+    color:white;
+}
+
+.top-wrapper h1{
+    font-weight:300;
+    font-size:60px;
+   padding-top:300px;
+   text-shadow: 1px 2px 3px #808080;
+}
+
+.top-wrapper a{
+    display:inline-block;
+    font-size:22px;
+    padding:17px 48px;
+    background-color:#0080FF;
+    border-radius:15px;
+    margin-top:40px;
+    color:white;
+}
+
+.top-wrapper a:hover{
+   background-color:#979BFA;
+}
+/*ここからプロフィール*/
+
+.profile-wrapper{
+    background-color:#D6D6D6;
+    height:600px;
+    margin:0 auto;
+
+}
+
+
+
+.profile-wrapper h1{
+    text-align:center;
+    padding-top:65px;
+    padding-bottom:65px;
+    font-size:60px;
+}
+
+.profile-image{
+    width:250px;
+    height:250px;
+    border-radius:300px;
+    object-fit:cover;
+    float:left;
+}
+.profile-message{
+    float:right;
+    font-size:22px;
+    line-height:57px;
+    font-weight:bold;
+}
+
+/*ここからスキル*/
+
+.skill-wrapper{
+margin-bottom:200px;
+}
+
+.skill-wrapper h1{
+    text-align:center;
+    padding-top:65px;
+    padding-bottom:65px;
+    font-size:60px;
+}
+.skill-set{
+    box-sizing:border-box;
+    width:14.2%;
+    float:left;
+    padding:0 15px 50px 15px;
+    font-weight:bold;
+}
+
+.skill-image{
+ width:100px;
+ height:100px;
+}
+
+#comesoon,#comeson{
+    display:none;
+}
+
+.message-position {
+
+    position:relative;
+    left:30px;
+}
+.message-position1 {
+
+    position:relative;
+    left:20px;
+}
+
+.message-position2 {
+
+    position:relative;
+    left:10px;
+}
+
+/*ここからお問い合わせフォーム*/
+
+.contact-wrapper{
+
+    height:800px;
+    background-image: url("img/wood.png");
+}
+
+.contact-wrapper h1{
+    text-align:center;
+    padding-top:65px;
+    padding-bottom:65px;
+    font-size:60px;
+}
+
+.common-form{
+    border-radius:7px;
+    box-shadow:1px;
+    margin:30px 0;
+}
+.noncommon-form{
+    width:400px;
+    height:30px;
+    font-size:30px;
+}
+.main-form{
+    width:400px;
+    height:150px;
+    font-size:30px;
+}
+.check-button{
+    display:inline-block;
+    font-size:16px;
+    padding:10px 28px;
+    background-color:#0080FF;
+    border-radius:15px;
+    margin-top:40px;
+    cursor:pointer;
+    color:white;
+}
+
+.check-button:hover{
+background-color:#979BFA;
+}
+
+/*ここからフッター*/
+footer{
+    text-align:center;
+    height:100px;
+    color:white;
+    background-color:black;
+}
+footer p{
+    padding-top:45px;
+}
