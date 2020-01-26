@@ -1,0 +1,83 @@
+/*ここからタブレット*/
+
+@media (max-width:790px){
+ .skill-set{
+  box-sizing:border-box;
+  float:left;
+  padding:20px 50px;
+    width:33%;
+    white-space:nowrap;
+ }
+
+
+
+ .profile-image{
+  width:180px;
+  height:180px;
+ }
+ .container{
+  margin:0 50px;
+ }
+
+ .profile-wrapper{
+  height:900px;
+ }
+
+ #comesoon,#comeson{
+  display:block;
+ }
+
+ .skill-wrapper{
+  padding-bottom:450px;
+ }
+
+
+}
+
+/*スマホ向け*/
+@media (max-width:620px){
+ .skill-set{
+  box-sizing:border-box;
+  float:left;
+  padding:20px 10px;
+    width:50%;
+ }
+ header ul{
+  display:none;
+ }
+
+ .menu-icon{
+  display:inline-block !important;
+  padding-right:20px;
+ }
+
+ .profile-image{
+  width:150px;
+  height:150px;
+ }
+ .container{
+  margin:0 30px;
+ }
+
+ .profile-wrapper{
+  height:900px;
+ }
+
+ #comesoon{
+  display:block;
+ }
+ #comeson{
+  display:none;
+ }
+
+ .skill-wrapper{
+  padding-bottom:450px;
+ }
+
+ .skill-box{
+  width:58%;
+  margin:0 auto;
+ }
+
+
+}
