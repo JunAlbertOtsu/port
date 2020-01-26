@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Albert'sPortfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="responsive.css" type="text/css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <!--ここからヘッダー-->
+    <header>
+
+           <p>Portfolio</p>
+
+          <span class="fa fa-bars menu-icon menu-trigger"></span>
+           <ul>
+                <li><a href="#1" class="heada">Profile</a></li>
+                <li><a href="#2" class="heada">Skill</a></li>
+                <li><a href="#3" class="heada">Contact</a></li>
+                <li><a target="_blank" href="https://twitter.com/albert_1125" class="heada">Twitter</a></li>
+           </ul>
+    </header>
+
+    <!--ここからプロフィール-->
+
+    <div class="top-wrapper">
+
+            <h1>Albert's Portfolioへようこそ!</h1>
+            <a href="#3">問い合わせ</a>
+
+    </div>
+
+    <div class="profile-wrapper" id="1">
+        <div class="container">
+            <h1>Profile</h1>
+            <div class="profile-img">
+                <img class="profile-image" src="img/profile.jpg">
+            </div>
+            <div class="profile-message scroll-fade">
+                <p>1997年 京都府出身</p>
+                <p>高校卒業後情報系学部へ進学</p>
+                <p>Web制作のフリーランスをしております。</p>
+                <p>こちらから積極的に提案をしていくことで</p>
+                <p>IT知識のないお客様にも安心していただけるように</p>
+                <p>心がけて仕事をしております。</p>
+            </div>
+        </div>
+    </div>
+
+    <!--ここからスキル紹介-->
+
+    <div class="skill-wrapper" id="2">
+        <div class="container">
+
+            <h1>Skill</h1>
+            <div class="skill-box">
+                <div class="skill-set">
+                    <img class="skill-image" src="img/html.png">
+                    <p class="message-position">HTML</p>
+                </div>
+
+                <div class="skill-set">
+                    <img  class="skill-image" src="img/css.png">
+                    <p class="message-position">CSS</p>
+                </div>
+
+                <div class="skill-set">
+                    <img  class="skill-image" src="img/bootstrap.png">
+                    <p class="message-position1">BootStrap</p>
+                </div>
+
+                <div class="skill-set">
+                    <img  class="skill-image" src="img/jquery.png">
+                    <p class="message-position1">jQuery</p>
+                </div>
+
+                <div class="skill-set">
+                    <img  class="skill-image" src="img/rubyonrails.png">
+                    <p>Ruby on rails</p>
+                </div>
+
+                 <div class="skill-set">
+                    <img  class="skill-image" src="img/javascript.png">
+                    <p class="message-position2">JavaScript</p>
+                </div>
+
+                 <div class="skill-set">
+                    <img  class="skill-image" src="img/xd.png">
+                    <p>Adobe XD</p>
+                </div>
+
+                <div class="skill-set" id="comesoon">
+                    <img class="skill-image" src="img/comingsoon.png">
+                </div>
+
+                <div class="skill-set" id="comeson">
+                    <img class="skill-image" src="img/comingsoon.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--ここから問い合わせフォーム-->
+
+    <div class="contact-wrapper" id="3">
+        <div class="container">
+          <h1>Contact</h1>
+          <form method="post" action="mail.php">
+            <table class="formTable">
+              <tr>
+                <td><input class="common-form noncommon-form" size="50" type="text" name="お名前" placeholder="お名前(必須)" /></td>
+              </tr>
+              <tr>
+                <td><input class="common-form noncommon-form" size="50" type="text" name="Email" placeholder="メールアドレス(必須)" /></td>
+              </tr>
+
+              <tr>
+                <td><textarea class="common-form main-form" name="お問い合わせ内容" cols="50" rows="5" placeholder="お問い合わせ内容(必須)"></textarea></td>
+              </tr>
+            </table>
+            <p align="center">
+              <input type="submit" class="check-button" value="　 確認 　" />　<input type="reset" class="check-button" value="リセット" />
+            </p>
+          </form>
+         </div>
+    </div>
+
+    <!--ここからフッター-->
+
+    <footer>
+       <p>&copy Albert'sPortfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
